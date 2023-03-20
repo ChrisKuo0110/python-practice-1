@@ -1,1 +1,1 @@
-# 這是精進寫Python並上傳到Github的練習區域
+# 這是我精進寫Python並上傳到Github的練習區域
