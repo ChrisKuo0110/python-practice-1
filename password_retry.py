@@ -10,6 +10,6 @@ while True:
         x = x - 1
         if x >= 1:
             print('密碼錯誤!還有', x, '次機會')
-        elif x == 0:
+        else:
             print('密碼已錯誤3次，將無法再執行!')
             break
