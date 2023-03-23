@@ -1,10 +1,15 @@
 #猜數字遊戲
 import random
 
+start = input('請決定隨機數字範圍的開始值: ')
+end = input('請決定隨機數字範圍的結束值: ')
+
+r = random.randint(start, end)
 x = 0
-r = random.randint(1, 100)
+
 while True:
-    num = input('請猜看看1到100的整數: ')
+
+    num = input('請猜看看所列範圍的整數: ')
     num = int(num)
     x = x + 1
     if num == r:
