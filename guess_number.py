@@ -8,7 +8,6 @@ r = random.randint(start, end)
 x = 0
 
 while True:
-
     num = input('請猜看看所列範圍的整數: ')
     num = int(num)
     x = x + 1
