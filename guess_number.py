@@ -12,7 +12,6 @@ while True:
         break
     elif num > r:
         print('還要比', num, '更小喔!')
-
     else:
         print('還要比', num, '更大喔!')
     print('您已經猜錯', x, '次囉!')
