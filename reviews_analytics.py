@@ -12,3 +12,15 @@ sum_length = 0
 for i in data:
     sum_length += len(i)
 print('每筆留言的平均長度為', sum_length/ len(data), '字')
+
+news = []
+for i in data:
+    if len(i) < 100:
+        news.append(i)
+print('總共有', len(news), '筆留言長度小於100字數')
+
+goods = []
+for i in data:
+    if 'good' in i:
+        goods.append(i)
+print('總共有', len(goods), '筆留言內容有提及good的字眼')
